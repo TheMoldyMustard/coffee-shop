@@ -19,11 +19,14 @@ if (! $conn->query($createTable)) {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Jake's Coffee Shop</title>
     <link rel="stylesheet" href="table.css" />
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="box-container">
         <div id="header">
             <h1>Jake's Cofee Shop</h1>
+            <div class="hamburger" id="hamburger-menu">☰</div>
+
         </div>
         <div id="container">
             <div id="nav">

@@ -171,3 +171,37 @@ body {
     }
 }
 
+/* Mobile First (Base styles go here) */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* Your code for small tablets */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .login-container {
+        max-width: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+        .login-container {
+        max-width: none;
+    }
+}
+
+/* Extra Large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+        .login-container {
+        max-width: none;
+    }
+}
+

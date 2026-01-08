@@ -102,6 +102,8 @@ header p {
     flex: 1;
     padding: 32px;
     background-color: #f6f4e8;
+    overflow-x: auto; 
+    width: 100%;
 }
 
 .admin-header,
@@ -217,6 +219,7 @@ table {
     border-collapse: collapse;
     background-color: #ffffff;
     box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    min-width: 600px;
 }
 
 table thead {
@@ -297,7 +300,18 @@ footer p {
 }
 
 /* ===== RESPONSIVE ===== */
-@media (max-width: 768px) {
+/* Mobile First (Base styles go here) */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    table {
+        font-size: 0.8em;
+    }
     .menu-toggle {
         display: block;
     }
@@ -326,12 +340,30 @@ footer p {
     }
 }
 
-@media (max-width: 480px) {
-    header h1 {
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+        header h1 {
         font-size: 1.5em;
     }
 
     table {
         font-size: 0.8em;
     }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* Your code for large screens */
+}
+
+/* Extra Large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* Optional: code for extra wide screens */
+}
+
+
+
+@media (max-width: 480px) {
+
 }
