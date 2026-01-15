@@ -309,9 +309,33 @@ footer p {
         font-size: 1.8em;
     }
 
+    header p {
+        font-size: 0.9em;
+    }
+
+    .admin-header h2,
+    .form-header h2 {
+        font-size: 1.4em;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        font-size: 0.85em;
+    }
+
     table {
         font-size: 0.8em;
     }
+
+    .btn {
+        font-size: 0.9em;
+    }
+
+    footer p {
+        font-size: 0.8em;
+    }
+
     .menu-toggle {
         display: block;
     }
@@ -343,27 +367,137 @@ footer p {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-        header h1 {
-        font-size: 1.5em;
+    header h1 {
+        font-size: 2.0em;
+    }
+
+    header p {
+        font-size: 1.0em;
+    }
+
+    .admin-header h2,
+    .form-header h2 {
+        font-size: 1.6em;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        font-size: 0.95em;
     }
 
     table {
-        font-size: 0.8em;
+        font-size: 0.9em;
+    }
+
+    .btn {
+        font-size: 1.0em;
+    }
+
+    footer p {
+        font-size: 0.9em;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    /* Your code for large screens */
+    header h1 {
+        font-size: 2.4em;
+    }
+
+    header p {
+        font-size: 1.05em;
+    }
+
+    .admin-header h2,
+    .form-header h2 {
+        font-size: 1.75em;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        font-size: 0.95em;
+    }
+
+    table {
+        font-size: 1.0em;
+    }
+
+    .btn {
+        font-size: 1.0em;
+    }
+
+    footer p {
+        font-size: 0.9em;
+    }
 }
 
 /* Extra Large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    /* Optional: code for extra wide screens */
+    header h1 {
+        font-size: 2.6em;
+    }
+
+    header p {
+        font-size: 1.1em;
+    }
+
+    .admin-header h2,
+    .form-header h2 {
+        font-size: 1.8em;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        font-size: 1.0em;
+    }
+
+    table {
+        font-size: 1.0em;
+    }
+
+    .btn {
+        font-size: 1.0em;
+    }
+
+    footer p {
+        font-size: 0.95em;
+    }
 }
 
 
 
 @media (max-width: 480px) {
+    header h1 {
+        font-size: 1.6em;
+    }
 
+    header p {
+        font-size: 0.85em;
+    }
+
+    .admin-header h2,
+    .form-header h2 {
+        font-size: 1.3em;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        font-size: 0.8em;
+    }
+
+    table {
+        font-size: 0.75em;
+    }
+
+    .btn {
+        font-size: 0.85em;
+    }
+
+    footer p {
+        font-size: 0.75em;
+    }
 }

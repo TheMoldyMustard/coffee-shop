@@ -1,9 +1,9 @@
 <?php
 
-$servername = "localhost:3307";  // Usually localhost
-$username = "root";         // Your MySQL username
-$password = "";             // Your MySQL password
-$dbname = "coffeeshop_db";  // Replace with your database name
+$servername = "localhost:3307"; // XAMPP uses 3307 port
+$username = "root";        
+$password = "";            
+$dbname = "coffeeshop_db";  
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

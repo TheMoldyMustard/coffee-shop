@@ -4,6 +4,7 @@ body {
     background-color: #ffffcc;
     color: #330000;
     font-family: Verdana, sans-serif;
+    font-size: 16px;
     margin: 0;
     padding: 0;
 }
@@ -205,6 +206,30 @@ table img {
 /* Media Queries */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    #header h1 {
+        font-size: 1.5em;
+    }
+
+    #nav {
+        font-size: 0.9em;
+    }
+
+    #main-content {
+        font-size: 0.9em;
+    }
+
+    #footer {
+        font-size: 0.9em;
+    }
+
+    table {
+        font-size: 0.8em;
+    }
+
     #header{
         text-align: left;
         padding-left: 60px;
@@ -238,6 +263,30 @@ table img {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    body {
+        font-size: 15px;
+    }
+
+    #header h1 {
+        font-size: 1.7em;
+    }
+
+    #nav {
+        font-size: 0.95em;
+    }
+
+    #main-content {
+        font-size: 0.95em;
+    }
+
+    #footer {
+        font-size: 0.95em;
+    }
+
+    table {
+        font-size: 0.9em;
+    }
+
     #header{
         text-align: left;
         padding-left: 60px;
@@ -268,6 +317,30 @@ table img {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    #header h1 {
+        font-size: 2.0em;
+    }
+
+    #nav {
+        font-size: 1.0em;
+    }
+
+    #main-content {
+        font-size: 1.0em;
+    }
+
+    #footer {
+        font-size: 1.0em;
+    }
+
+    table {
+        font-size: 1.0em;
+    }
+
     #nav {
         display: block;
     }
@@ -278,6 +351,30 @@ table img {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px){
+    body {
+        font-size: 18px;
+    }
+
+    #header h1 {
+        font-size: 2.2em;
+    }
+
+    #nav {
+        font-size: 1.1em;
+    }
+
+    #main-content {
+        font-size: 1.1em;
+    }
+
+    #footer {
+        font-size: 1.1em;
+    }
+
+    table {
+        font-size: 1.1em;
+    }
+
     #container{
         display: flex;
         flex-direction: column;
