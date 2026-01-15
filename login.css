@@ -176,12 +176,55 @@ body {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
 
+    .login-container {
+        max-width: 100%;
+        border-radius: 8px;
+    }
+
+    .login-header {
+        padding: 25px 20px;
+    }
+
+    .login-header h1 {
+        font-size: 1.8em;
+    }
+
+    .login-body {
+        padding: 25px 20px;
+    }
+
+    .form-group input {
+        padding: 12px 14px;
+        font-size: 0.95em;
+    }
+
+    .btn-login {
+        padding: 14px;
+        font-size: 1em;
+    }
+
+    .login-footer {
+        padding: 15px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    /* Your code for small tablets */
+    .login-container {
+        max-width: 500px;
+    }
+
+    .login-header h1 {
+        font-size: 2.2em;
+    }
+
+    .login-body {
+        padding: 35px 25px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
